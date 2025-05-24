@@ -1,4 +1,4 @@
-/* Reset dan global */
+
 body {
   font-family: "Segoe UI", Arial, sans-serif;
   margin: 0;
@@ -147,14 +147,12 @@ h3 {
   text-decoration: underline;
 }
 
-.Navbar-container.collapsed {
-  width: 60px;
-  transition: width 0.3s;
-}
-.Navbar-container.collapsed ul li a {
-  font-size: 0;
-  padding-left: 0;
-  transition: font-size 0.3s, padding-left 0.3s;
+.li-navbar a.active {
+  background: #a6d1e6;
+  color: #0b2447;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s;
 }
 
 .skill-table-container {
@@ -207,6 +205,6 @@ h3 {
 .skill-table-container {
   width: 100%;
   display: flex;
-  justify-content: flex-start; /* dari 'center' jadi 'flex-start' */
+  justify-content: flex-start; 
   margin-bottom: 40px;
 }
